@@ -31,7 +31,7 @@
 ### 🏆 Competition
 **AI for Bharat AWS Hackathon**
 - **Track**: Student Track
-- **Theme**: AI for Social Impact
+- **Theme**: AI for Communities, Access and PublicImpact
 - **Focus**: Heritage Preservation & Economic Empowerment
 
 </td>
@@ -1188,3 +1188,4 @@ If you find this project interesting or useful, please consider giving it a ⭐ 
 **#AIForBharat #HeritagePreservation #DigitalSovereignty #AWS #Blockchain**
 
 </div>
+
