@@ -668,65 +668,7 @@ Deployment
 
 ---
 
-## 🧪 Testing
 
-### Test Coverage
-
-```bash
-# Run all tests
-npm test
-
-# Run with coverage
-npm run test:coverage
-
-# Run infrastructure tests
-npm run test:infrastructure
-
-# Run mobile app tests
-cd mobile-app && npm test
-```
-
-### Testing Strategy
-
-- **Unit Tests**: API endpoints, authentication, payment processing
-- **Property-Based Tests**: AI processing, data integrity, payment distribution
-- **Integration Tests**: End-to-end workflows, AWS service integrations
-- **Performance Tests**: Load testing, concurrent uploads, QR scanning
-
-**Current Status**: 7/7 infrastructure tests passing ✅
-
----
-
-## 🚀 Deployment
-
-### Local Development
-
-```bash
-# Start LocalStack
-docker-compose up -d
-
-# Deploy to LocalStack
-npm run setup-local
-
-# Check LocalStack services
-docker-compose ps
-```
-
-### AWS Production
-
-```bash
-# Configure AWS credentials
-aws configure
-
-# Bootstrap CDK (first time only)
-cdk bootstrap
-
-# Deploy infrastructure
-cdk deploy
-
-# View deployed resources
-aws cloudformation describe-stacks --stack-name DharoharPlatformStack
-```
 
 ---
 
@@ -1107,6 +1049,7 @@ If you find this project interesting or useful, please consider giving it a ⭐ 
 **#AIForBharat #HeritagePreservation #DigitalSovereignty #AWS #Blockchain**
 
 </div>
+
 
 
 
