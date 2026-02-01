@@ -273,67 +273,7 @@ graph TB
 
 ---
 
-## 🚀 Getting Started
 
-### Prerequisites
-
-```bash
-# Required
-- Node.js 18+ and npm
-- AWS CLI configured with credentials
-- Docker Desktop (for LocalStack)
-- Git
-
-# Optional
-- AWS CDK CLI: npm install -g aws-cdk
-- Expo CLI: npm install -g expo-cli
-```
-
-### Quick Start
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/adityatiwari12/Dharohar-MVP.git
-cd Dharohar-MVP
-
-# 2. Install dependencies
-npm install
-
-# 3. Set up environment variables
-cp .env.example .env
-# Edit .env with your AWS credentials
-
-# 4. Start LocalStack (local AWS simulation)
-docker-compose up -d
-
-# 5. Deploy infrastructure to LocalStack
-npm run setup-local
-
-# 6. Run tests
-npm test
-
-# 7. Start mobile app
-cd mobile-app
-npm install
-npm start
-```
-
-### Deploy to AWS
-
-```bash
-# Bootstrap CDK (first time only)
-cdk bootstrap
-
-# Deploy infrastructure
-cdk deploy
-
-# Deploy mobile app
-cd mobile-app
-expo build:android
-expo build:ios
-```
-
----
 
 ## 📱 Mobile App Features
 
@@ -413,19 +353,7 @@ sequenceDiagram
     Market->>Vault: Record transaction
 ```
 
-### Screenshots
 
-<div align="center">
-
-| Home Screen | Voice Recording | Audio Heritage | QR Scanner |
-|-------------|----------------|----------------|------------|
-| ![Home](https://via.placeholder.com/200x400?text=Home) | ![Voice](https://via.placeholder.com/200x400?text=Voice) | ![Audio](https://via.placeholder.com/200x400?text=Audio) | ![QR](https://via.placeholder.com/200x400?text=QR) |
-
-| Marketplace | Profile | Digital Passport | Verification |
-|-------------|---------|------------------|--------------|
-| ![Market](https://via.placeholder.com/200x400?text=Market) | ![Profile](https://via.placeholder.com/200x400?text=Profile) | ![Passport](https://via.placeholder.com/200x400?text=Passport) | ![Verify](https://via.placeholder.com/200x400?text=Verify) |
-
-</div>
 
 ---
 
@@ -1188,5 +1116,6 @@ If you find this project interesting or useful, please consider giving it a ⭐ 
 **#AIForBharat #HeritagePreservation #DigitalSovereignty #AWS #Blockchain**
 
 </div>
+
 
 
