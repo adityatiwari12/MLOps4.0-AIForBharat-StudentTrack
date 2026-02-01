@@ -641,15 +641,6 @@ Deployment
 </table>
 
 ---
-
-## 📖 Documentation
-
-### 📋 Specification Documents
-
-- **[Requirements Document](.kiro/specs/dharohar-craft-platform/requirements.md)** - Comprehensive functional and non-functional requirements
-- **[Design Document](.kiro/specs/dharohar-craft-platform/design.md)** - Technical architecture and implementation specifications
-- **[Tasks Document](.kiro/specs/dharohar-craft-platform/tasks.md)** - Implementation plan with actionable coding tasks
-
 ### 🎓 Key Concepts
 
 <table>
@@ -1116,6 +1107,7 @@ If you find this project interesting or useful, please consider giving it a ⭐ 
 **#AIForBharat #HeritagePreservation #DigitalSovereignty #AWS #Blockchain**
 
 </div>
+
 
 
 
